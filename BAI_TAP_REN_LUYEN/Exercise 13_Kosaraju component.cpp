@@ -11,6 +11,7 @@ using namespace std;
 2 6
 6 4
 */
+
 class Graph {
 private:
 	int n, m;
@@ -50,6 +51,7 @@ public:
 			}
 		}
 	}
+
 	void Kasaraju() {
 		stack<int> st;
 		vector<int> visited1(n + 1, 0);

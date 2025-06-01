@@ -29,7 +29,7 @@ public:
 		vector<int> dist(n + 1, 1e9);
 		dist[u] = 0;
 		bool finish;
-		for (int i = 1; i < n; i++) {
+		for (int i = 1; i <= n - 1; i++) {
 			finish = true;
 			for (Edge edge : dscanh) {
 				int u = edge.x, v = edge.y, w = edge.w;

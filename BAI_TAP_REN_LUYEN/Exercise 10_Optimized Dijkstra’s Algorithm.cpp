@@ -77,7 +77,7 @@ public:
 
 	void printPaths(const std::vector <int >& dist, const std::vector <int >& parent) {
 		// For each vertex , print its distance and path from the source
-		cout << " Vertex \ tDistance \ tPath " << std::endl;
+		cout << "Vertex \tDistance \tPath " << std::endl;
 		for (int i = 0; i < V; i++) {
 			cout << i << " " << dist[i] << " ";
 			printPath(parent, i);

@@ -46,7 +46,7 @@ public:
 		vector<int> dist(V, 1e9);
 		vector<bool> sptSet(V, false);
 		vector<int> parent(V, -1);
-		dist[0] = 0;
+		dist[source] = 0;
 		for (int i = 0; i < V; i++) {
 			int u = minDistance(dist, sptSet);
 			if (u == -1) {

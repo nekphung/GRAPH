@@ -57,5 +57,8 @@
     <ClCompile Include="Exercise 14_Tarjan component.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise 15_Path between 2 node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
